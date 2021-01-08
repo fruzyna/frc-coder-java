@@ -1,7 +1,9 @@
 #!/bin/bash
-if [ ! -d "/home/coder/workspace/2021_robot_software" ]
+if [ ! -d "/home/coder/workspace/2019_robot_software" ]
 then
-  git clone git@github.com:wildstang/2021_robot_software /home/coder/workspace/2021_robot_software
+  git clone https://github.com/wildstang/2019_robot_software /home/coder/workspace/2019_robot_software
 else
   echo "Project has already been cloned."
 fi
+
+cd workspace
