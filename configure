@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO="2021_robot_software"
+REPO="2019_robot_software"
 
 if [ ! -d "/home/coder/workspace/$REPO" ]
 then
