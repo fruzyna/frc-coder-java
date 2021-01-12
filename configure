@@ -6,5 +6,3 @@ then
 else
   echo "Project has already been cloned."
 fi
-
-cd workspace
