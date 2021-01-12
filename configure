@@ -1,8 +1,11 @@
 #!/bin/bash
-if [ ! -d "/home/coder/workspace/2021_robot_software" ]
+
+REPO="2021_robot_software"
+
+if [ ! -d "/home/coder/workspace/$REPO" ]
 then
   ssh-keyscan github.com >> /home/coder/.ssh/known_hosts
-  git clone git@github.com:wildstang/2021_robot_software /home/coder/workspace/2021_robot_software
+  git clone git@github.com:wildstang/$REPO /home/coder/workspace/$REPO
 else
   echo "Project has already been cloned."
 fi
